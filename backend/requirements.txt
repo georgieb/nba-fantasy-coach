@@ -1,0 +1,20 @@
+# Pinned to tested versions. Upgrade deliberately, then rerun tests + pip-audit.
+fastapi==0.143.2
+uvicorn[standard]==0.54.0
+requests==2.34.2
+python-dotenv==1.2.4
+anthropic==1.15.0
+httpx2==2.13.1
+httpcore2==2.13.1
+scipy==1.18.1
+numpy==2.5.4
+lunardate==0.3.0
+supabase==2.33.0
+PyJWT[crypto]==2.15.1
+cryptography==50.0.2
+pydantic==2.14.1
+
+# dev / test
+pytest==9.1.1
+httpx==0.28.1
+pip-audit==2.10.1
